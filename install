@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 echo "Installing..."
-ln -sv /Users/$USER/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf /Users/$USER/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf /Users/$USER/.dotfiles/vim/.vimrc ~/.vimrc

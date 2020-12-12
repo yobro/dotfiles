@@ -1,4 +1,4 @@
-for DOTFILE in `find /Users/$USER/.dotfiles/system`
+for DOTFILE in `find /Users/$USER/.dotfiles/zsh/system`
 do
-  [ -f $DOTFILE ] && source $DOTFILE
+  [ -f $DOTFILE ] && [[ $DOTFILE =~ .*\.zsh$ ]] &&  source $DOTFILE
 done
